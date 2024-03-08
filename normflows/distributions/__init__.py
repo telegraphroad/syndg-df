@@ -1,5 +1,6 @@
 from . import (
     base,
+    base_extended,
     decoder,
     encoder,
     linear_interpolation,
@@ -17,6 +18,16 @@ from .base import (
     GaussianMixture,
     GaussianPCA,
     UniformGaussian,
+)
+from .base_extended import (
+    GeneralizedGaussianDistribution,
+    GaussianMixture,
+    GaussianMixture,
+    StudentTDistribution,
+    MultivariateStudentTDist,
+    StudentTMixture,
+    TruncatedStandardNormal,
+    TruncatedNormal,
 )
 from .target import (
     Target,
