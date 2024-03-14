@@ -5,6 +5,7 @@ from . import (
     optim,
     preprocessing,
     splines,
+    utils
 )
 
 from .eval import bitsPerDim, bitsPerDimDataset
