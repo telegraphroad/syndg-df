@@ -7,6 +7,7 @@ from . import (
     mh_proposal,
     prior,
     target,
+    target_extended
 )
 
 from .base import (
@@ -36,6 +37,7 @@ from .target import (
     RingMixture,
     TwoIndependent
 )
+from .target_extended import NealsFunnel
 
 from .encoder import BaseEncoder, Dirac, Uniform, NNDiagGaussian
 from .decoder import BaseDecoder, NNDiagGaussianDecoder, NNBernoulliDecoder
